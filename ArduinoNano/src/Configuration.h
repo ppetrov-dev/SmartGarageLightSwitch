@@ -1,0 +1,9 @@
+#include <Arduino.h>
+
+#define SECTION_COUNT 7
+
+#define RELAY_START_PIN 2 //D2
+#define RELAY_STATE_DEFAULT HIGH
+#define RELAY_STATE_CHANGED LOW
+
+#define BUTTON_START_PIN 13 //D13
